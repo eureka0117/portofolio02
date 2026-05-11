@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Mahzuz - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-icon">AM</span>
+                <span class="brand-text">Ammar Mahzuz</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#projects" class="nav-link">Project</a>
+                <a href="#contact" class="nav-link">Hubungi</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-shortcuts">
+                    <a href="#about" class="nav-shortcut" title="Tentang" data-tooltip="Tentang">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#skills" class="nav-shortcut" title="Keahlian" data-tooltip="Keahlian">
+                        <i class="fas fa-star"></i>
+                    </a>
+                    <a href="#projects" class="nav-shortcut" title="Project" data-tooltip="Project">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="#contact" class="nav-shortcut" title="Hubungi" data-tooltip="Hubungi">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="nav-divider"></div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text fade-in">
+                <h1 class="hero-title">
+                    <span class="title-word">Halo,</span>
+                    <span class="title-word">Saya</span>
+                    <span class="title-word highlight">Ammar Mahzuz</span>
+                </h1>
+                <p class="hero-subtitle">Mahasiswa • Web Developer • UI/UX Designer • 3D Animator</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Karya Saya</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="avatar-wrapper">
+                    <div class="avatar">AM</div>
+                    <div class="avatar-ring"></div>
+                </div>
+                <div class="floating-cards">
+                    <div class="float-card" style="--delay: 0s">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="float-card" style="--delay: 0.2s">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <div class="float-card" style="--delay: 0.4s">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p class="highlight-text">
+                        Saya adalah mahasiswa prodi sistem informasi universitas komputama Cilacap yang sangat antusias dalam menambah ilmu baru.
+                    </p>
+                    <p>
+                        Saya ahli di bidang web development, ui ux design dan juga animator, khususnya animasi 3d. Saya memiliki passion tinggi dalam menciptakan pengalaman digital yang menarik dan interaktif.
+                    </p>
+                </div>
+                <div class="about-stats fade-in">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Keahlian Utama</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Project Selesai</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedikasi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Keahlian Saya</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card fade-in" style="--delay: 0s">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Web Development & Programming</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in" style="--delay: 0.1s">
+                    <div class="skill-icon-wrapper">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3>Figma</h3>
+                    <p>UI/UX Design</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card fade-in" style="--delay: 0.2s">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Blender 3D</h3>
+                    <p>3D Animation & Modeling</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Project Saya</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in" style="--delay: 0s">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-status">Active</div>
+                    </div>
+                    <h3>Website Kampus (SIMAK)</h3>
+                    <p>Membuat website kampus dengan fitur lengkap seperti sistem informasi akademik mahasiswa (SIMAK). Menggunakan teknologi web modern untuk user experience yang optimal.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card fade-in" style="--delay: 0.1s">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="project-status">Showcase</div>
+                    </div>
+                    <h3>Animasi 3D</h3>
+                    <p>Menciptakan animasi 3D yang menakjubkan menggunakan Blender. Dari character animation, motion graphics, hingga visual effects yang profesional.</p>
+                    <div class="project-tags">
+                        <span class="tag">Blender</span>
+                        <span class="tag">3D</span>
+                        <span class="tag">Animation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Hubungi Saya</h2>
+                <div class="title-underline"></div>
+            </div>
+            <p class="contact-subtitle fade-in">Mari terhubung melalui media sosial atau email</p>
+            
+            <div class="contact-links fade-in">
+                <a href="mailto:ammarmahzuz@mail.com" class="contact-item contact-email" title="Email">
+                    <div class="contact-icon-wrapper">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="contact-text">Email</span>
+                </a>
+                
+                <a href="https://api.whatsapp.com/send/?phone=6285643094039&text&type=phone_number&app_absent=0&wame_ctl=1" target="_blank" class="contact-item contact-whatsapp" title="WhatsApp">
+                    <div class="contact-icon-wrapper">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <span class="contact-text">WhatsApp</span>
+                </a>
+                
+                <a href="https://www.instagram.com/rammahr16?igsh=Z2ZxMXU0ZWlxMHEy" target="_blank" class="contact-item contact-instagram" title="Instagram">
+                    <div class="contact-icon-wrapper">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span class="contact-text">Instagram</span>
+                </a>
+                
+                <a href="https://youtube.com/@ammarmahzuz7254?si=USGzGLlos97mZvbC" target="_blank" class="contact-item contact-youtube" title="YouTube">
+                    <div class="contact-icon-wrapper">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span class="contact-text">YouTube</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ammar Mahzuz. All rights reserved.</p>
+            <div class="footer-glow"></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
